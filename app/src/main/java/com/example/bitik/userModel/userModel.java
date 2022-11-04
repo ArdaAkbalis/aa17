@@ -6,6 +6,8 @@ public class userModel {
     private boolean gender;
 
     public userModel() {
+        birthDate = System.currentTimeMillis()
+                gender= true;
     }
 
     public String getUid() {
